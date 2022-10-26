@@ -1,5 +1,5 @@
 # Alpine Linux with OpenJDK JRE
-FROM openjdk:8-jre-alpine
+FROM openjdk:20-ea-19-oraclelinux8
 
 RUN apk --no-cache add curl
 
